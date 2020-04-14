@@ -17,7 +17,7 @@ rm -f /lib/systemd/system/anaconda.target.wants/*;
 
 
 RUN yum -y install epel-release 
-
+RUN yum -y install iproute
 #COPY startup.sh /usr/local/bin/startup.sh
 #COPY startup.service /etc/systemd/system/startup.service
 
